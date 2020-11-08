@@ -4,6 +4,7 @@ python/sources
 python/python_notes.md
 python/python_notes.ipynb
 python/residuals
+.gitignore
 
 statistic/source
 statistic/Notes of Practical Statistics for Data Scientists Book/.ipynb_checkpoints
