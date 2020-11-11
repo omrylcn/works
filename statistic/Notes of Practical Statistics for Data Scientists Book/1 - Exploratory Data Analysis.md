@@ -59,3 +59,27 @@ $$weighted-mean=\frac{\sum_{i=1}^{n}w_{i}x_{i}}{w_{i}}$$
 |Mean absolute deviation| The mean of the absolute values of the deviations from the mean|l1-norm, Manhattan-norm|
 |Interquartile range|The difference between the 75th percentile and the 25th percentile|IQR|
 
+### 1.3.1 - Deviations
+
+- The `mean absolute deviation` is  to  take  the  average  of  the  absolute  values  of  thedeviations from the mean.
+
+$$mean-absolute-deviation = \frac{\sum_{i=1}^{n}|x_{i}-\bar{x}|}{n}$$
+
+- The  `variance`  is  an  average  of  the  squared deviations.
+
+$$variance = s^2 = \frac{\sum_{i=1}^{n}(x_{i}-\bar{x})^2}{n-1}$$
+
+- `The standard deviation` is the square root of the variance
+$$s = \sqrt{variance}$$
+
+- `The variance`, `the standard deviation`, nor `the mean absolute deviation` is robust to outliers and extreme values.
+
+- A robust estimate of variability is the `median absolute deviation from the median` or MAD.
+
+$$median-absolute-deviation = Median(|x_{1}-m|,|x_{2}-m|...|x_{n}-m|)$$
+
+where `m` is the median.
+
+
+- the MAD is not influenced by extreme values.
+
