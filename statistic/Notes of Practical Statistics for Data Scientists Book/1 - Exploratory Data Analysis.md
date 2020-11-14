@@ -67,7 +67,7 @@ $$mean-absolute-deviation = \frac{\sum_{i=1}^{n}|x_{i}-\bar{x}|}{n}$$
 
 - The  `variance`  is  an  average  of  the  squared deviations.
 
-$$variance = s^2 = \frac{\sum_{i=1}^{n}(x_{i}-\bar{x})^2}{n-1}$$
+$$variance = s^2 = \frac{\sum_{i=1}^{n}(x_{i}-\bar{x})^2}{n}$$
 
 - `The standard deviation` is the square root of the variance
 $$s = \sqrt{variance}$$
@@ -83,3 +83,46 @@ where `m` is the median.
 
 - the MAD is not influenced by extreme values.
 
+### 1.3.2 - Percentiles
+
+*pass*
+
+## 1.4 - Data Distribution
+
+**Key Terms :**
+
+| Term          | Definition    | Synonym  |
+|:------------- |:-------------|:--------|
+| Boxplot     | A plot introduced by Tukey as a quick way to visualize the distribution of data. |whiskers plot|
+|Frequency table|A tally of the count of numeric data values that fall into a set of intervals (bins).| - |
+|Histogram |A  plot  of  the  frequency  table  with  the  bins  on  the  x-axis  and  the  count  (or  pro‐portion) on the y-axis. |- |
+|Density plot|A smoothed version of the histogram, often based on a kernel density estimate.|-|
+
+**Key Ideas :**
+
+- A  frequency  histogram  plots  frequency  counts  on  the  y-axis  and  variable  valueson the x-axis; it gives a sense of the distribution of the data at a glance.
+
+- A  frequency  table  is  a  tabular  version  of  the  frequency  counts  found  in  ahistogram.
+- A boxplot—with the top and bottom of the box at the 75th and 25th percentiles,respectively—also  gives  a  quick  sense  of  the  distribution  of  the  data;  it  is  oftenused in side-by-side displays to compare distributions.
+- A density plot is a smoothed version of a histogram; it requires a function to esti‐mate a plot based on the data (multiple estimates are possible, of course).
+
+
+## 1.5 Binary and Categorical Data
+
+**Key Terms :**
+
+| Term          | Definition    | Synonym  |
+|:------------- |:-------------|:--------|
+|Mode |Most commonly occurring category or value in a data set. |-|
+|Bar charts|Frequency or proportion for each category plotted as bars.|-|
+|Pie charts|The frequency or proportion for each category plotted as wedges in a pie.|-|
+
+**Key Ideas :**
+
+- Categorical data is typically summed up in proportions and can be visualized in a
+bar chart.
+- Categories might represent distinct things (apples and oranges, male and female),
+levels of a factor variable (low, medium, and high), or numeric data that has been
+binned.
+
+## 1.6 Correaltaion
